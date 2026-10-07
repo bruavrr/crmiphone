@@ -1,0 +1,1 @@
+{% extends 'crm/base.html' %}{% block content %}<div class="settings-grid">{% for card in settings_cards %}<a class="panel settings-card" href="{{ card.url }}"><span class="settings-icon">◇</span><h2>{{ card.name }}</h2><p>{{ card.description }}</p><span class="text-link">Configurar →</span></a>{% endfor %}</div>{% endblock %}
