@@ -1,5 +1,11 @@
 # Validação da entrega
 
+## Atualização visual — 7 de outubro de 2026
+
+Tema escuro inspirado na referência fornecida: fundo midnight, superfícies em camadas, gradientes azul/violeta, detalhes ciano, bordas suaves e sombras de luz. Fonte Manrope variável distribuída localmente com licença OFL. Alterações restritas à apresentação: nova folha `theme.css`, fonte e inclusão da folha nos quatro templates de documento. Nenhum modelo, regra comercial, endpoint ou dado operacional foi alterado.
+
+As **93 verificações Playwright foram executadas novamente e aprovadas** com o tema, em banco SQLite isolado (`/tmp/crm-visual-test.sqlite3`), nos tamanhos 1440px, 820px e 390px. Verificados também carregamento da fonte local, ausência de erros JavaScript e fundo branco da proposta em mídia de impressão/PDF. Capturas de dashboard, login, Kanban e formulário mobile revisadas. Os 60 testes Django abaixo pertencem à validação funcional anterior; não foram repetidos nesta alteração exclusivamente visual.
+
 Validação realizada no ambiente cloud com Python 3.12, Django 5.2.18, SQLite e Chromium instalado. Aplicação funcional no ambiente de desenvolvimento; implantação externa não executada.
 
 ## Resultados
